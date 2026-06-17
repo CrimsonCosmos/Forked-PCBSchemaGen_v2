@@ -1,0 +1,3191 @@
+{
+  "components": [
+    {
+      "id": "R",
+      "category": "passive",
+      "footprint": "R_0805",
+      "note": "Generic SMD resistor",
+      "pins": [
+        {
+          "num": 1,
+          "name": "~",
+          "description": "Terminal 1"
+        },
+        {
+          "num": 2,
+          "name": "~",
+          "description": "Terminal 2"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "category": "passive",
+      "footprint": "C_0805",
+      "note": "Generic SMD capacitor",
+      "pins": [
+        {
+          "num": 1,
+          "name": "~",
+          "description": "Terminal 1"
+        },
+        {
+          "num": 2,
+          "name": "~",
+          "description": "Terminal 2"
+        }
+      ]
+    },
+    {
+      "id": "L",
+      "category": "passive",
+      "footprint": "L_0805",
+      "note": "Generic SMD inductor",
+      "pins": [
+        {
+          "num": 1,
+          "name": "1",
+          "description": "Terminal 1"
+        },
+        {
+          "num": 2,
+          "name": "2",
+          "description": "Terminal 2"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "category": "passive",
+      "footprint": "BAT165",
+      "note": "Generic Schottky diode",
+      "pins": [
+        {
+          "num": 1,
+          "name": "K",
+          "description": "Anode"
+        },
+        {
+          "num": 2,
+          "name": "A",
+          "description": "Cathode"
+        }
+      ]
+    },
+    {
+      "id": "AMC1350",
+      "category": "ic",
+      "footprint": "AMC1350",
+      "note": "Isolated amplifier",
+      "pins": [
+        {
+          "num": 1,
+          "name": "VDD1",
+          "description": "Primary-side supply"
+        },
+        {
+          "num": 2,
+          "name": "INP",
+          "description": "Input +"
+        },
+        {
+          "num": 3,
+          "name": "INN",
+          "description": "Input -"
+        },
+        {
+          "num": 4,
+          "name": "GND1",
+          "description": "Primary-side ground"
+        },
+        {
+          "num": 5,
+          "name": "GND2",
+          "description": "Secondary-side ground"
+        },
+        {
+          "num": 6,
+          "name": "OUTN",
+          "description": "Output -"
+        },
+        {
+          "num": 7,
+          "name": "OUTP",
+          "description": "Output +"
+        },
+        {
+          "num": 8,
+          "name": "VDD2",
+          "description": "Secondary-side supply"
+        }
+      ]
+    },
+    {
+      "id": "OPA328",
+      "category": "ic",
+      "footprint": "OPA328",
+      "note": "Precision op amp",
+      "pins": [
+        {
+          "num": 1,
+          "name": "OUT",
+          "description": "Output"
+        },
+        {
+          "num": 2,
+          "name": "V-",
+          "description": "Negative supply / GND"
+        },
+        {
+          "num": 3,
+          "name": "+IN",
+          "description": "Non-inverting input"
+        },
+        {
+          "num": 4,
+          "name": "-IN",
+          "description": "Inverting input"
+        },
+        {
+          "num": 5,
+          "name": "V+",
+          "description": "Positive supply"
+        }
+      ]
+    },
+    {
+      "id": "ACS37010",
+      "category": "ic",
+      "footprint": "ACS37010",
+      "note": "Hall-based current sensor",
+      "pins": [
+        {
+          "num": 1,
+          "name": "IP+",
+          "description": "Current path +"
+        },
+        {
+          "num": 4,
+          "name": "IP-",
+          "description": "Current path -"
+        },
+        {
+          "num": 5,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 6,
+          "name": "VREF",
+          "description": "Reference"
+        },
+        {
+          "num": 7,
+          "name": "VOUT",
+          "description": "Output"
+        },
+        {
+          "num": 8,
+          "name": "VDD",
+          "description": "Supply"
+        }
+      ]
+    },
+    {
+      "id": "TLV1117-33",
+      "category": "ic",
+      "footprint": "TLV1117-33",
+      "note": "3.3 V LDO regulator",
+      "pins": [
+        {
+          "num": 1,
+          "name": "ADJ/GND",
+          "description": "ADJ/GND"
+        },
+        {
+          "num": 2,
+          "name": "OUTPUT_1",
+          "description": "Output"
+        },
+        {
+          "num": 3,
+          "name": "INPUT",
+          "description": "Input"
+        },
+        {
+          "num": 4,
+          "name": "OUTPUT_2",
+          "description": "Output"
+        }
+      ]
+    },
+    {
+      "id": "TPS54302",
+      "category": "ic",
+      "footprint": "TPS54302",
+      "note": "Buck regulator. EN floating defaults to enabled; if controlling EN, use a resistor divider so EN >1.30V at valid input. If EN is floating, connect to NC.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 2,
+          "name": "SW",
+          "description": "Switch node"
+        },
+        {
+          "num": 3,
+          "name": "VIN",
+          "description": "Input supply"
+        },
+        {
+          "num": 4,
+          "name": "FB",
+          "description": "Feedback"
+        },
+        {
+          "num": 5,
+          "name": "EN",
+          "description": "Enable"
+        },
+        {
+          "num": 6,
+          "name": "BOOT",
+          "description": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "id": "MGJ2D121505SC",
+      "category": "ic",
+      "footprint": "MGJ2D121505SC",
+      "note": "Isolated DC/DC. this isolated dc/dc converter is for isolated gate driver secondary side power supply only, do not use it for other isolated power supply applications.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "+VIN",
+          "description": "Primary +VIN"
+        },
+        {
+          "num": 2,
+          "name": "-VIN",
+          "description": "Primary -VIN"
+        },
+        {
+          "num": 5,
+          "name": "-VOUT",
+          "description": "Secondary -VOUT"
+        },
+        {
+          "num": 6,
+          "name": "0V",
+          "description": "Secondary 0V"
+        },
+        {
+          "num": 7,
+          "name": "+VOUT",
+          "description": "Secondary +VOUT"
+        }
+      ]
+    },
+    {
+      "id": "UCC27511",
+      "category": "ic",
+      "footprint": "UCC27511",
+      "note": "Low-side non-isolated gate driver",
+      "pins": [
+        {
+          "num": 1,
+          "name": "VDD",
+          "description": "Supply"
+        },
+        {
+          "num": 2,
+          "name": "OUTH",
+          "description": "Output high"
+        },
+        {
+          "num": 3,
+          "name": "OUTL",
+          "description": "Output low"
+        },
+        {
+          "num": 4,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 5,
+          "name": "IN-",
+          "description": "Input -"
+        },
+        {
+          "num": 6,
+          "name": "IN+",
+          "description": "Input +"
+        }
+      ]
+    },
+    {
+      "id": "UCC27211",
+      "category": "ic",
+      "footprint": "UCC27211",
+      "note": "Bootstrap half-bridge gate driver, Maximum VIN DC bus rating is 120V. Do NOT use this gate driver if VIN > 100V. The bootstrap diode is already integrated in the UCC27211, do not add an additional bootstrap diode.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "VDD",
+          "description": "Supply"
+        },
+        {
+          "num": 2,
+          "name": "HB",
+          "description": "Bootstrap"
+        },
+        {
+          "num": 3,
+          "name": "HO",
+          "description": "High-side output"
+        },
+        {
+          "num": 4,
+          "name": "HS",
+          "description": "Switch node"
+        },
+        {
+          "num": 5,
+          "name": "HI",
+          "description": "High-side input"
+        },
+        {
+          "num": 6,
+          "name": "LI",
+          "description": "Low-side input"
+        },
+        {
+          "num": 7,
+          "name": "VSS",
+          "description": "Ground"
+        },
+        {
+          "num": 8,
+          "name": "LO",
+          "description": "Low-side output"
+        }
+      ]
+    },
+    {
+      "id": "UCC5390E",
+      "category": "ic",
+      "footprint": "UCC5390E",
+      "note": "Isolated single channel gate driver",
+      "pins": [
+        {
+          "num": 1,
+          "name": "VCC1",
+          "description": "Primary supply"
+        },
+        {
+          "num": 2,
+          "name": "IN+",
+          "description": "Input +"
+        },
+        {
+          "num": 3,
+          "name": "IN-",
+          "description": "Input -"
+        },
+        {
+          "num": 4,
+          "name": "GND1",
+          "description": "Primary ground"
+        },
+        {
+          "num": 5,
+          "name": "VCC2",
+          "description": "Secondary supply"
+        },
+        {
+          "num": 6,
+          "name": "OUT",
+          "description": "Output"
+        },
+        {
+          "num": 7,
+          "name": "GND2",
+          "description": "Secondary ground"
+        },
+        {
+          "num": 8,
+          "name": "VEE2",
+          "description": "Secondary negative rail"
+        }
+      ]
+    },
+    {
+      "id": "UCC21710",
+      "category": "ic",
+      "footprint": "UCC21710",
+      "note": "Isolated gate driver with oc protection and miller clamp",
+      "pins": [
+        {
+          "num": 1,
+          "name": "AIN",
+          "description": "Analog input"
+        },
+        {
+          "num": 2,
+          "name": "OC",
+          "description": "Overcurrent input"
+        },
+        {
+          "num": 3,
+          "name": "COM",
+          "description": "Primary reference 0v"
+        },
+        {
+          "num": 4,
+          "name": "OUTH",
+          "description": "Output high"
+        },
+        {
+          "num": 5,
+          "name": "VDD",
+          "description": "Driver supply"
+        },
+        {
+          "num": 6,
+          "name": "OUTL",
+          "description": "Output low"
+        },
+        {
+          "num": 7,
+          "name": "CLMPI",
+          "description": "Internal Active miller clamp",
+          "note": "connect this pin to gate for clamping"
+        },
+        {
+          "num": 8,
+          "name": "VEE",
+          "description": "Negative rail"
+        },
+        {
+          "num": 9,
+          "name": "GND",
+          "description": "Logic ground"
+        },
+        {
+          "num": 10,
+          "name": "IN+",
+          "description": "Input +"
+        },
+        {
+          "num": 11,
+          "name": "IN-",
+          "description": "Input -"
+        },
+        {
+          "num": 12,
+          "name": "RDY",
+          "description": "Ready"
+        },
+        {
+          "num": 13,
+          "name": "~{FLT}",
+          "description": "Fault (active low)"
+        },
+        {
+          "num": 14,
+          "name": "~{RST}/EN",
+          "description": "Reset_n/Enable"
+        },
+        {
+          "num": 15,
+          "name": "VCC",
+          "description": "primary logic supply"
+        },
+        {
+          "num": 16,
+          "name": "APWM",
+          "description": "analog PWM output"
+        }
+      ]
+    },
+    {
+      "id": "BSC052N08NS5",
+      "category": "MOSFET",
+      "footprint": "BSC052N08NS5",
+      "note": "TDSON-8 80V 5.2mohm Si MOSFET, Do NOT use this MOSFET if VBUS > 60V",
+      "pins": [
+        {
+          "num": 1,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 2,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 3,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 4,
+          "name": "G",
+          "description": "Gate"
+        },
+        {
+          "num": 5,
+          "name": "D",
+          "description": "Drain"
+        },
+        {
+          "num": 6,
+          "name": "D",
+          "description": "Drain"
+        },
+        {
+          "num": 7,
+          "name": "D",
+          "description": "Drain"
+        },
+        {
+          "num": 8,
+          "name": "D",
+          "description": "Drain"
+        },
+        {
+          "num": 9,
+          "name": "D",
+          "description": "Drain (tab)"
+        }
+      ]
+    },
+    {
+      "id": "IMLT65R015M2H",
+      "category": "MOSFET",
+      "footprint": "IMLT65R015M2H",
+      "note": "TOLT 650V 15mohm SiC MOSFET, Do NOT use this MOSFET if VBUS > 450V",
+      "pins": [
+        {
+          "num": 1,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 2,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 3,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 4,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 5,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 6,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 7,
+          "name": "KS",
+          "description": "Kelvin Source"
+        },
+        {
+          "num": 8,
+          "name": "G",
+          "description": "Gate"
+        },
+        {
+          "num": 9,
+          "name": "D",
+          "description": "Drain (tab)"
+        },
+        {
+          "num": 10,
+          "name": "D",
+          "description": "Drain (tab)"
+        },
+        {
+          "num": 11,
+          "name": "D",
+          "description": "Drain (tab)"
+        },
+        {
+          "num": 12,
+          "name": "D",
+          "description": "Drain (tab)"
+        },
+        {
+          "num": 13,
+          "name": "D",
+          "description": "Drain (tab)"
+        },
+        {
+          "num": 14,
+          "name": "D",
+          "description": "Drain (tab)"
+        },
+        {
+          "num": 15,
+          "name": "D",
+          "description": "Drain (tab)"
+        },
+        {
+          "num": 16,
+          "name": "D",
+          "description": "Drain (tab)"
+        }
+      ]
+    },
+    {
+      "id": "IMT65R033M2H",
+      "category": "MOSFET",
+      "footprint": "IMT65R033M2H",
+      "note": "TOLL 650V 33mohm SiC MOSFET, Do NOT use this MOSFET if VBUS > 450V",
+      "pins": [
+        {
+          "num": 1,
+          "name": "G",
+          "description": "Gate"
+        },
+        {
+          "num": 2,
+          "name": "KS",
+          "description": "Kelvin Source"
+        },
+        {
+          "num": 3,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 4,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 5,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 6,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 7,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 8,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 9,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 10,
+          "name": "D",
+          "description": "Drain (tab)"
+        },
+        {
+          "num": 11,
+          "name": "D",
+          "description": "Drain (tab)"
+        },
+        {
+          "num": 12,
+          "name": "D",
+          "description": "Drain (tab)"
+        }
+      ]
+    },
+    {
+      "id": "IMW65R015M2H",
+      "category": "MOSFET",
+      "footprint": "IMW65R015M2H",
+      "note": "TO-247-3 650V 15mohm SiC MOSFET, Do NOT use this MOSFET if VBUS > 450V",
+      "pins": [
+        {
+          "num": 1,
+          "name": "G",
+          "description": "Gate"
+        },
+        {
+          "num": 2,
+          "name": "D",
+          "description": "Drain"
+        },
+        {
+          "num": 3,
+          "name": "S",
+          "description": "Source"
+        }
+      ]
+    },
+    {
+      "id": "IMZA65R015M2H",
+      "category": "MOSFET",
+      "footprint": "IMZA65R015M2H",
+      "note": "TO-247-4 650V 15mohm SiC MOSFET, Do NOT use this MOSFET if VBUS > 450V",
+      "pins": [
+        {
+          "num": 1,
+          "name": "D",
+          "description": "Drain"
+        },
+        {
+          "num": 2,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 3,
+          "name": "KS",
+          "description": "Kelvin Source"
+        },
+        {
+          "num": 4,
+          "name": "G",
+          "description": "Gate"
+        }
+      ]
+    },
+    {
+      "id": "C_film",
+      "category": "passive",
+      "footprint": "C_film",
+      "note": "Metallized Polypropylene Film Capacitor (MKP), 1uF 750V DC, suitable for resonant applications (LLC, DAB)",
+      "pins": [
+        {
+          "num": 1,
+          "name": "~",
+          "description": "Terminal 1"
+        },
+        {
+          "num": 2,
+          "name": "~",
+          "description": "Terminal 2"
+        }
+      ]
+    },
+    {
+      "id": "Inductor_power",
+      "category": "inductor",
+      "footprint": "Inductor_power",
+      "note": "Power inductor on PQ32/30 core. Pins 1-6 are Terminal A (same net), pins 7-12 are Terminal B (same net). Connect all pins of each terminal to the same net.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "A",
+          "description": "Terminal A"
+        },
+        {
+          "num": 2,
+          "name": "A",
+          "description": "Terminal A"
+        },
+        {
+          "num": 3,
+          "name": "A",
+          "description": "Terminal A"
+        },
+        {
+          "num": 4,
+          "name": "A",
+          "description": "Terminal A"
+        },
+        {
+          "num": 5,
+          "name": "A",
+          "description": "Terminal A"
+        },
+        {
+          "num": 6,
+          "name": "A",
+          "description": "Terminal A"
+        },
+        {
+          "num": 7,
+          "name": "B",
+          "description": "Terminal B"
+        },
+        {
+          "num": 8,
+          "name": "B",
+          "description": "Terminal B"
+        },
+        {
+          "num": 9,
+          "name": "B",
+          "description": "Terminal B"
+        },
+        {
+          "num": 10,
+          "name": "B",
+          "description": "Terminal B"
+        },
+        {
+          "num": 11,
+          "name": "B",
+          "description": "Terminal B"
+        },
+        {
+          "num": 12,
+          "name": "B",
+          "description": "Terminal B"
+        }
+      ]
+    },
+    {
+      "id": "transformer_PQ5050",
+      "category": "transformer",
+      "footprint": "transformer_PQ5050",
+      "note": "PQ50/50 transformer coil former. Pri_1 (pins 1-3, same net), Pri_2 (pins 4-6, same net), Sec_1 (pins 7-9, same net), Sec_2 (pins 10-12, same net). Connect all pins of each winding to the same net.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "Pri_1",
+          "description": "Primary winding 1"
+        },
+        {
+          "num": 2,
+          "name": "Pri_1",
+          "description": "Primary winding 1"
+        },
+        {
+          "num": 3,
+          "name": "Pri_1",
+          "description": "Primary winding 1"
+        },
+        {
+          "num": 4,
+          "name": "Pri_2",
+          "description": "Primary winding 2"
+        },
+        {
+          "num": 5,
+          "name": "Pri_2",
+          "description": "Primary winding 2"
+        },
+        {
+          "num": 6,
+          "name": "Pri_2",
+          "description": "Primary winding 2"
+        },
+        {
+          "num": 7,
+          "name": "Sec_1",
+          "description": "Secondary winding 1"
+        },
+        {
+          "num": 8,
+          "name": "Sec_1",
+          "description": "Secondary winding 1"
+        },
+        {
+          "num": 9,
+          "name": "Sec_1",
+          "description": "Secondary winding 1"
+        },
+        {
+          "num": 10,
+          "name": "Sec_2",
+          "description": "Secondary winding 2"
+        },
+        {
+          "num": 11,
+          "name": "Sec_2",
+          "description": "Secondary winding 2"
+        },
+        {
+          "num": 12,
+          "name": "Sec_2",
+          "description": "Secondary winding 2"
+        }
+      ]
+    },
+    {
+      "id": "INA240A1",
+      "category": "ic",
+      "footprint": "INA240A1",
+      "note": "Bidirectional current sense amplifier with enhanced PWM rejection, 20 V/V gain, -4V to 80V common-mode range. SOIC-8 pinout. Pin 5 (NC) is reserved: connect to ground or leave floating.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "-",
+          "description": "Analog input, connect to load side of shunt resistor (IN-)"
+        },
+        {
+          "num": 2,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 3,
+          "name": "REF2",
+          "description": "Reference 2 voltage input, connect to 0V to VS"
+        },
+        {
+          "num": 4,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 5,
+          "name": "~",
+          "description": "Output voltage"
+        },
+        {
+          "num": 6,
+          "name": "V+",
+          "description": "Power supply, 2.7V to 5.5V"
+        },
+        {
+          "num": 7,
+          "name": "REF1",
+          "description": "Reference 1 voltage input, connect to 0V to VS"
+        },
+        {
+          "num": 8,
+          "name": "+",
+          "description": "Analog input, connect to supply side of shunt resistor (IN+)"
+        }
+      ]
+    },
+    {
+      "id": "INA333",
+      "category": "ic",
+      "footprint": "INA333",
+      "note": "Micro-power instrumentation amplifier, rail-to-rail output",
+      "pins": [
+        {
+          "num": 1,
+          "name": "Rg",
+          "description": "Gain resistor terminal 1"
+        },
+        {
+          "num": 2,
+          "name": "-",
+          "description": "Inverting input"
+        },
+        {
+          "num": 3,
+          "name": "+",
+          "description": "Non-inverting input"
+        },
+        {
+          "num": 4,
+          "name": "V-",
+          "description": "Negative supply"
+        },
+        {
+          "num": 5,
+          "name": "Ref",
+          "description": "Reference voltage"
+        },
+        {
+          "num": 6,
+          "name": "OUT",
+          "description": "Output"
+        },
+        {
+          "num": 7,
+          "name": "V+",
+          "description": "Positive supply"
+        },
+        {
+          "num": 8,
+          "name": "Rg",
+          "description": "Gain resistor terminal 2"
+        }
+      ]
+    },
+    {
+      "id": "INA226",
+      "category": "ic",
+      "footprint": "INA226",
+      "note": "36V, 16-bit, I2C output current/voltage/power monitor with alert. 0V to 36V common-mode bus voltage. 10-pin VSSOP but KiCad symbol uses 8 accessible pins.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "A1",
+          "description": "Address pin, connect to GND/SCL/SDA/VS"
+        },
+        {
+          "num": 2,
+          "name": "A0",
+          "description": "Address pin, connect to GND/SCL/SDA/VS"
+        },
+        {
+          "num": 3,
+          "name": "SDA",
+          "description": "I2C data line, open-drain I/O"
+        },
+        {
+          "num": 4,
+          "name": "SCL",
+          "description": "I2C clock line, open-drain input"
+        },
+        {
+          "num": 5,
+          "name": "VS",
+          "description": "Power supply, 2.7V to 5.5V"
+        },
+        {
+          "num": 6,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 7,
+          "name": "VIN-",
+          "description": "Analog input, connect to load side of shunt resistor"
+        },
+        {
+          "num": 8,
+          "name": "VIN+",
+          "description": "Analog input, connect to supply side of shunt resistor"
+        }
+      ]
+    },
+    {
+      "id": "AD8495",
+      "category": "ic",
+      "footprint": "AD8495",
+      "note": "Precision thermocouple amplifier with cold junction compensation (K-type), 5mV/degC output. Single or dual supply 2.7V to 36V.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "-IN",
+          "description": "Inverting input (thermocouple -)"
+        },
+        {
+          "num": 2,
+          "name": "REF",
+          "description": "Reference input for offset adjustment"
+        },
+        {
+          "num": 3,
+          "name": "-Vs",
+          "description": "Negative supply (connect to GND for single supply)"
+        },
+        {
+          "num": 4,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 5,
+          "name": "SENSE",
+          "description": "Output sense, connect to OUT for normal operation"
+        },
+        {
+          "num": 6,
+          "name": "~",
+          "description": "Output voltage"
+        },
+        {
+          "num": 7,
+          "name": "+Vs",
+          "description": "Positive supply"
+        },
+        {
+          "num": 8,
+          "name": "+IN",
+          "description": "Non-inverting input (thermocouple +)"
+        }
+      ]
+    },
+    {
+      "id": "MAX31865",
+      "category": "ic",
+      "footprint": "MAX31865",
+      "note": "RTD-to-digital converter with SPI interface, 15-bit ADC resolution. Supports 2/3/4-wire PT100-PT1000 RTD sensors. VDD 3.0V to 3.6V.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "BIAS",
+          "description": "Bias voltage output for RTD excitation"
+        },
+        {
+          "num": 2,
+          "name": "REFIN+",
+          "description": "Reference input positive"
+        },
+        {
+          "num": 3,
+          "name": "REFIN-",
+          "description": "Reference input negative"
+        },
+        {
+          "num": 4,
+          "name": "ISENSOR",
+          "description": "Sensor current source output (unused in some configs)"
+        },
+        {
+          "num": 5,
+          "name": "FORCE+",
+          "description": "Force+ RTD connection"
+        },
+        {
+          "num": 6,
+          "name": "FORCE2",
+          "description": "Force2 RTD connection (for 3/4-wire)"
+        },
+        {
+          "num": 7,
+          "name": "RTDIN+",
+          "description": "RTD input positive"
+        },
+        {
+          "num": 8,
+          "name": "RTDIN-",
+          "description": "RTD input negative"
+        },
+        {
+          "num": 9,
+          "name": "FORCE-",
+          "description": "Force- RTD connection"
+        },
+        {
+          "num": 10,
+          "name": "GND",
+          "description": "Analog ground (GND1)"
+        },
+        {
+          "num": 11,
+          "name": "SDI",
+          "description": "SPI data input (MOSI)"
+        },
+        {
+          "num": 12,
+          "name": "SCLK",
+          "description": "SPI clock input"
+        },
+        {
+          "num": 13,
+          "name": "~{CS}",
+          "description": "SPI chip select (active low)"
+        },
+        {
+          "num": 14,
+          "name": "SDO",
+          "description": "SPI data output (MISO)"
+        },
+        {
+          "num": 15,
+          "name": "DGND",
+          "description": "Digital ground"
+        },
+        {
+          "num": 16,
+          "name": "GND",
+          "description": "Analog ground (GND2)"
+        },
+        {
+          "num": 17,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 18,
+          "name": "~{DRDY}",
+          "description": "Data ready output (active low)"
+        },
+        {
+          "num": 19,
+          "name": "DVDD",
+          "description": "Digital supply voltage"
+        },
+        {
+          "num": 20,
+          "name": "VDD",
+          "description": "Analog supply voltage"
+        },
+        {
+          "num": 21,
+          "name": "GND",
+          "description": "Analog ground (GND3)"
+        }
+      ]
+    },
+    {
+      "id": "ADS7042",
+      "category": "ic",
+      "footprint": "ADS7042",
+      "note": "12-bit, 1-MSPS, single-ended SAR ADC with SPI interface. Single supply 1.65V to 3.6V.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "DVDD",
+          "description": "Digital supply voltage"
+        },
+        {
+          "num": 2,
+          "name": "SCLK",
+          "description": "SPI clock input"
+        },
+        {
+          "num": 3,
+          "name": "SDO",
+          "description": "SPI data output (MISO)"
+        },
+        {
+          "num": 4,
+          "name": "~{CS}",
+          "description": "SPI chip select (active low)"
+        },
+        {
+          "num": 5,
+          "name": "AINM",
+          "description": "Analog input minus (connect to GND for single-ended)"
+        },
+        {
+          "num": 6,
+          "name": "AINP",
+          "description": "Analog input plus"
+        },
+        {
+          "num": 7,
+          "name": "AVDD",
+          "description": "Analog supply voltage"
+        },
+        {
+          "num": 8,
+          "name": "GND",
+          "description": "Ground"
+        }
+      ]
+    },
+    {
+      "id": "MCP4921",
+      "category": "ic",
+      "footprint": "MCP4921",
+      "note": "12-bit single-channel DAC with SPI interface. Single supply 2.7V to 5.5V.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "Vdd",
+          "description": "Positive supply voltage"
+        },
+        {
+          "num": 2,
+          "name": "~{CS}",
+          "description": "SPI chip select (active low)"
+        },
+        {
+          "num": 3,
+          "name": "SCK",
+          "description": "SPI clock input"
+        },
+        {
+          "num": 4,
+          "name": "SDI",
+          "description": "SPI data input (MOSI)"
+        },
+        {
+          "num": 5,
+          "name": "~{LDAC}",
+          "description": "Latch DAC input (active low), tie to GND for immediate update"
+        },
+        {
+          "num": 6,
+          "name": "Vref",
+          "description": "Reference voltage input"
+        },
+        {
+          "num": 7,
+          "name": "Vss",
+          "description": "Ground"
+        },
+        {
+          "num": 8,
+          "name": "Vout",
+          "description": "DAC analog output"
+        }
+      ]
+    },
+    {
+      "id": "REF3033",
+      "category": "ic",
+      "footprint": "REF3033",
+      "note": "3.3V precision voltage reference, low-power (50uA quiescent). SOT-23-3 package.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "IN",
+          "description": "Input voltage (3.5V to 5.5V)"
+        },
+        {
+          "num": 2,
+          "name": "OUT",
+          "description": "Reference output (3.3V)"
+        },
+        {
+          "num": 3,
+          "name": "GND",
+          "description": "Ground"
+        }
+      ]
+    },
+    {
+      "id": "SN65HVD230",
+      "category": "ic",
+      "footprint": "SN65HVD230",
+      "note": "3.3V CAN bus transceiver, ISO 11898-2 compatible. Supports up to 1 Mbps data rate. RS pin controls slope/mode: tie to GND for high-speed, resistor to GND for slope control, tie to VCC for standby.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "D",
+          "description": "CAN transmit data input (TXD from controller)"
+        },
+        {
+          "num": 2,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 3,
+          "name": "VCC",
+          "description": "3.3V supply voltage"
+        },
+        {
+          "num": 4,
+          "name": "R",
+          "description": "CAN receive data output (RXD to controller)"
+        },
+        {
+          "num": 5,
+          "name": "VREF",
+          "description": "VCC/2 reference output"
+        },
+        {
+          "num": 6,
+          "name": "CANL",
+          "description": "CAN bus low line"
+        },
+        {
+          "num": 7,
+          "name": "CANH",
+          "description": "CAN bus high line"
+        },
+        {
+          "num": 8,
+          "name": "RS",
+          "description": "Mode select: GND=high-speed, resistor=slope control, VCC=standby"
+        }
+      ]
+    },
+    {
+      "id": "SP3485",
+      "category": "ic",
+      "footprint": "SP3485",
+      "note": "RS-485/RS-422 half-duplex transceiver, 3.3V. Up to 10 Mbps data rate. DE enables driver, ~RE enables receiver.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "RO",
+          "description": "Receiver output"
+        },
+        {
+          "num": 2,
+          "name": "~{RE}",
+          "description": "Receiver output enable (active low)"
+        },
+        {
+          "num": 3,
+          "name": "DE",
+          "description": "Driver output enable (active high)"
+        },
+        {
+          "num": 4,
+          "name": "DI",
+          "description": "Driver input"
+        },
+        {
+          "num": 5,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 6,
+          "name": "A",
+          "description": "RS-485 bus non-inverting I/O"
+        },
+        {
+          "num": 7,
+          "name": "B",
+          "description": "RS-485 bus inverting I/O"
+        },
+        {
+          "num": 8,
+          "name": "VCC",
+          "description": "3.3V supply voltage"
+        }
+      ]
+    },
+    {
+      "id": "CP2102N",
+      "category": "ic",
+      "footprint": "CP2102N",
+      "note": "USB-to-UART bridge controller with integrated USB transceiver and voltage regulator. QFN-28 package. Single supply 3.0V to 5.25V on VREGIN.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "DCD",
+          "description": "Data carrier detect (modem input)"
+        },
+        {
+          "num": 2,
+          "name": "RI/CLK",
+          "description": "Ring indicator / clock output"
+        },
+        {
+          "num": 3,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 4,
+          "name": "D+",
+          "description": "USB data positive"
+        },
+        {
+          "num": 5,
+          "name": "D-",
+          "description": "USB data negative"
+        },
+        {
+          "num": 6,
+          "name": "VDD",
+          "description": "3.3V regulated output / I/O supply"
+        },
+        {
+          "num": 7,
+          "name": "VREGIN",
+          "description": "Voltage regulator input (3.0V to 5.25V)"
+        },
+        {
+          "num": 8,
+          "name": "VBUS",
+          "description": "USB bus voltage sense input (5V)"
+        },
+        {
+          "num": 9,
+          "name": "RSTb",
+          "description": "Reset input (active low), pull up to VDD"
+        },
+        {
+          "num": 10,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 11,
+          "name": "SUSPENDb",
+          "description": "USB suspend indicator (active low)"
+        },
+        {
+          "num": 12,
+          "name": "SUSPEND",
+          "description": "USB suspend indicator (active high)"
+        },
+        {
+          "num": 13,
+          "name": "CHREN",
+          "description": "USB battery charger detection enable"
+        },
+        {
+          "num": 14,
+          "name": "CHR1",
+          "description": "USB battery charger detection output 1"
+        },
+        {
+          "num": 15,
+          "name": "CHR0",
+          "description": "USB battery charger detection output 0"
+        },
+        {
+          "num": 16,
+          "name": "GPIO.3/WAKEUP",
+          "description": "GPIO3 / Remote wakeup input"
+        },
+        {
+          "num": 17,
+          "name": "GPIO.2/RS485",
+          "description": "GPIO2 / RS-485 transceiver control"
+        },
+        {
+          "num": 18,
+          "name": "GPIO.1/RXT",
+          "description": "GPIO1 / Receive toggle LED"
+        },
+        {
+          "num": 19,
+          "name": "GPIO.0/TXT",
+          "description": "GPIO0 / Transmit toggle LED"
+        },
+        {
+          "num": 20,
+          "name": "GPIO.6",
+          "description": "General purpose I/O 6"
+        },
+        {
+          "num": 21,
+          "name": "GPIO.5",
+          "description": "General purpose I/O 5"
+        },
+        {
+          "num": 22,
+          "name": "GPIO.4",
+          "description": "General purpose I/O 4"
+        },
+        {
+          "num": 23,
+          "name": "CTS",
+          "description": "Clear to send (UART handshake input)"
+        },
+        {
+          "num": 24,
+          "name": "RTS",
+          "description": "Request to send (UART handshake output)"
+        },
+        {
+          "num": 25,
+          "name": "RXD",
+          "description": "UART receive data input"
+        },
+        {
+          "num": 26,
+          "name": "TXD",
+          "description": "UART transmit data output"
+        },
+        {
+          "num": 27,
+          "name": "DSR",
+          "description": "Data set ready (modem input)"
+        },
+        {
+          "num": 28,
+          "name": "DTR",
+          "description": "Data terminal ready (modem output)"
+        },
+        {
+          "num": 29,
+          "name": "EP",
+          "description": "Exposed pad, connect to ground"
+        }
+      ]
+    },
+    {
+      "id": "ISO7741",
+      "category": "ic",
+      "footprint": "ISO7741",
+      "note": "6-channel unidirectional digital isolator, 5kV isolation",
+      "pins": [
+        {
+          "num": 1,
+          "name": "Vcc1",
+          "description": "Supply voltage side 1"
+        },
+        {
+          "num": 2,
+          "name": "INA",
+          "description": "Input channel A (side 1)"
+        },
+        {
+          "num": 3,
+          "name": "INB",
+          "description": "Input channel B (side 1)"
+        },
+        {
+          "num": 4,
+          "name": "INC",
+          "description": "Input channel C (side 1)"
+        },
+        {
+          "num": 5,
+          "name": "IND",
+          "description": "Input channel D (side 1)"
+        },
+        {
+          "num": 6,
+          "name": "INE",
+          "description": "Input channel E (side 1)"
+        },
+        {
+          "num": 7,
+          "name": "INF",
+          "description": "Input channel F (side 1)"
+        },
+        {
+          "num": 8,
+          "name": "GND1",
+          "description": "Ground side 1"
+        },
+        {
+          "num": 9,
+          "name": "GND2",
+          "description": "Ground side 2"
+        },
+        {
+          "num": 10,
+          "name": "OUTF",
+          "description": "Output channel F (side 2)"
+        },
+        {
+          "num": 11,
+          "name": "OUTE",
+          "description": "Output channel E (side 2)"
+        },
+        {
+          "num": 12,
+          "name": "OUTD",
+          "description": "Output channel D (side 2)"
+        },
+        {
+          "num": 13,
+          "name": "OUTC",
+          "description": "Output channel C (side 2)"
+        },
+        {
+          "num": 14,
+          "name": "OUTB",
+          "description": "Output channel B (side 2)"
+        },
+        {
+          "num": 15,
+          "name": "OUTA",
+          "description": "Output channel A (side 2)"
+        },
+        {
+          "num": 16,
+          "name": "Vcc2",
+          "description": "Supply voltage side 2"
+        }
+      ]
+    },
+    {
+      "id": "ADUM1250",
+      "category": "ic",
+      "footprint": "ADUM1250",
+      "note": "Hot swappable dual I2C isolator with bidirectional SDA and SCL channels. 3.0V to 5.5V per side, 1000 kHz I2C compatible. Reinforced isolation 2500 Vrms.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "VDD1",
+          "description": "Side 1 supply voltage"
+        },
+        {
+          "num": 2,
+          "name": "SDA1",
+          "description": "Side 1 I2C data (bidirectional)"
+        },
+        {
+          "num": 3,
+          "name": "SCL1",
+          "description": "Side 1 I2C clock (bidirectional)"
+        },
+        {
+          "num": 4,
+          "name": "GND1",
+          "description": "Side 1 ground"
+        },
+        {
+          "num": 5,
+          "name": "GND2",
+          "description": "Side 2 ground"
+        },
+        {
+          "num": 6,
+          "name": "SCL2",
+          "description": "Side 2 I2C clock (bidirectional)"
+        },
+        {
+          "num": 7,
+          "name": "SDA2",
+          "description": "Side 2 I2C data (bidirectional)"
+        },
+        {
+          "num": 8,
+          "name": "VDD2",
+          "description": "Side 2 supply voltage"
+        }
+      ]
+    },
+    {
+      "id": "W25Q64JV",
+      "category": "ic",
+      "footprint": "W25Q64JV",
+      "note": "64-Mbit (8 MB) serial NOR flash with SPI/Dual-SPI/Quad-SPI interface. 2.7V to 3.6V supply. SOIC-8 package.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "~{CS}",
+          "description": "SPI chip select (active low)"
+        },
+        {
+          "num": 2,
+          "name": "DO(IO1)",
+          "description": "Data output / IO1 (MISO in standard SPI)"
+        },
+        {
+          "num": 3,
+          "name": "WP#(IO2)",
+          "description": "Write protect (active low) / IO2 in Quad-SPI"
+        },
+        {
+          "num": 4,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 5,
+          "name": "DI(IO0)",
+          "description": "Data input / IO0 (MOSI in standard SPI)"
+        },
+        {
+          "num": 6,
+          "name": "CLK",
+          "description": "SPI clock input"
+        },
+        {
+          "num": 7,
+          "name": "HOLD#orRESET#(IO3)",
+          "description": "Hold/Reset (active low) / IO3 in Quad-SPI"
+        },
+        {
+          "num": 8,
+          "name": "VCC",
+          "description": "Power supply (2.7V to 3.6V)"
+        }
+      ]
+    },
+    {
+      "id": "AT24C256",
+      "category": "ic",
+      "footprint": "AT24C256",
+      "note": "256-Kbit (32 KB) I2C serial EEPROM. 1.8V to 5.5V supply. SOIC-8 package. 64-byte page write, 1M write cycles endurance.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "A0",
+          "description": "I2C address bit 0"
+        },
+        {
+          "num": 2,
+          "name": "A1",
+          "description": "I2C address bit 1"
+        },
+        {
+          "num": 3,
+          "name": "A2",
+          "description": "I2C address bit 2"
+        },
+        {
+          "num": 4,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 5,
+          "name": "SDA",
+          "description": "I2C serial data (bidirectional, open-drain)"
+        },
+        {
+          "num": 6,
+          "name": "SCL",
+          "description": "I2C serial clock"
+        },
+        {
+          "num": 7,
+          "name": "WP",
+          "description": "Write protect: tie high to protect, tie low to enable writes"
+        },
+        {
+          "num": 8,
+          "name": "VCC",
+          "description": "Power supply (1.8V to 5.5V)"
+        }
+      ]
+    },
+    {
+      "id": "STM32F103C8T6",
+      "category": "ic",
+      "footprint": "STM32F103C8T6",
+      "note": "ARM Cortex-M3 32-bit MCU, 72 MHz, 64 KB Flash, 20 KB SRAM, USB, CAN, 2x ADC, 7 timers, 9 communication interfaces. LQFP-48 package. 2.0V to 3.6V supply.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "VBAT",
+          "description": "Battery supply for RTC and backup registers"
+        },
+        {
+          "num": 2,
+          "name": "PC13-TAMPER-RTC",
+          "description": "GPIO PC13 / Tamper / RTC calibration"
+        },
+        {
+          "num": 3,
+          "name": "PC14-OSC32_IN",
+          "description": "GPIO PC14 / 32.768 kHz oscillator input"
+        },
+        {
+          "num": 4,
+          "name": "PC15-OSC32_OUT",
+          "description": "GPIO PC15 / 32.768 kHz oscillator output"
+        },
+        {
+          "num": 5,
+          "name": "PD0-OSC_IN",
+          "description": "GPIO PD0 / HSE oscillator input (4-16 MHz)"
+        },
+        {
+          "num": 6,
+          "name": "PD1-OSC_OUT",
+          "description": "GPIO PD1 / HSE oscillator output"
+        },
+        {
+          "num": 7,
+          "name": "NRST",
+          "description": "Reset input (active low)"
+        },
+        {
+          "num": 8,
+          "name": "VSSA",
+          "description": "Analog ground reference"
+        },
+        {
+          "num": 9,
+          "name": "VDDA",
+          "description": "Analog supply voltage (2.4V to 3.6V)"
+        },
+        {
+          "num": 10,
+          "name": "PA0-WKUP",
+          "description": "GPIO PA0 / ADC_IN0 / Wakeup"
+        },
+        {
+          "num": 11,
+          "name": "PA1",
+          "description": "GPIO PA1 / ADC_IN1"
+        },
+        {
+          "num": 12,
+          "name": "PA2",
+          "description": "GPIO PA2 / ADC_IN2 / USART2_TX"
+        },
+        {
+          "num": 13,
+          "name": "PA3",
+          "description": "GPIO PA3 / ADC_IN3 / USART2_RX"
+        },
+        {
+          "num": 14,
+          "name": "PA4",
+          "description": "GPIO PA4 / ADC_IN4 / SPI1_NSS / DAC_OUT1"
+        },
+        {
+          "num": 15,
+          "name": "PA5",
+          "description": "GPIO PA5 / ADC_IN5 / SPI1_SCK"
+        },
+        {
+          "num": 16,
+          "name": "PA6",
+          "description": "GPIO PA6 / ADC_IN6 / SPI1_MISO"
+        },
+        {
+          "num": 17,
+          "name": "PA7",
+          "description": "GPIO PA7 / ADC_IN7 / SPI1_MOSI"
+        },
+        {
+          "num": 18,
+          "name": "PB0",
+          "description": "GPIO PB0 / ADC_IN8"
+        },
+        {
+          "num": 19,
+          "name": "PB1",
+          "description": "GPIO PB1 / ADC_IN9"
+        },
+        {
+          "num": 20,
+          "name": "PB2",
+          "description": "GPIO PB2 / BOOT1"
+        },
+        {
+          "num": 21,
+          "name": "PB10",
+          "description": "GPIO PB10 / I2C2_SCL / USART3_TX"
+        },
+        {
+          "num": 22,
+          "name": "PB11",
+          "description": "GPIO PB11 / I2C2_SDA / USART3_RX"
+        },
+        {
+          "num": 23,
+          "name": "VSS_1",
+          "description": "Digital ground 1"
+        },
+        {
+          "num": 24,
+          "name": "VDD_1",
+          "description": "Digital supply 1 (2.0V to 3.6V)"
+        },
+        {
+          "num": 25,
+          "name": "PB12",
+          "description": "GPIO PB12 / SPI2_NSS / CAN_RX"
+        },
+        {
+          "num": 26,
+          "name": "PB13",
+          "description": "GPIO PB13 / SPI2_SCK / CAN_TX"
+        },
+        {
+          "num": 27,
+          "name": "PB14",
+          "description": "GPIO PB14 / SPI2_MISO"
+        },
+        {
+          "num": 28,
+          "name": "PB15",
+          "description": "GPIO PB15 / SPI2_MOSI"
+        },
+        {
+          "num": 29,
+          "name": "PA8",
+          "description": "GPIO PA8 / TIM1_CH1 / MCO"
+        },
+        {
+          "num": 30,
+          "name": "PA9",
+          "description": "GPIO PA9 / USART1_TX"
+        },
+        {
+          "num": 31,
+          "name": "PA10",
+          "description": "GPIO PA10 / USART1_RX"
+        },
+        {
+          "num": 32,
+          "name": "PA11",
+          "description": "GPIO PA11 / USB_DM / CAN_RX"
+        },
+        {
+          "num": 33,
+          "name": "PA12",
+          "description": "GPIO PA12 / USB_DP / CAN_TX"
+        },
+        {
+          "num": 34,
+          "name": "PA13",
+          "description": "GPIO PA13 / SWDIO (debug)"
+        },
+        {
+          "num": 35,
+          "name": "VSS_2",
+          "description": "Digital ground 2"
+        },
+        {
+          "num": 36,
+          "name": "VDD_2",
+          "description": "Digital supply 2 (2.0V to 3.6V)"
+        },
+        {
+          "num": 37,
+          "name": "PA14",
+          "description": "GPIO PA14 / SWCLK (debug)"
+        },
+        {
+          "num": 38,
+          "name": "PA15",
+          "description": "GPIO PA15 / SPI1_NSS / JTDI"
+        },
+        {
+          "num": 39,
+          "name": "PB3",
+          "description": "GPIO PB3 / SPI1_SCK / JTDO"
+        },
+        {
+          "num": 40,
+          "name": "PB4",
+          "description": "GPIO PB4 / SPI1_MISO / JNTRST"
+        },
+        {
+          "num": 41,
+          "name": "PB5",
+          "description": "GPIO PB5 / I2C1_SMBAI / SPI1_MOSI"
+        },
+        {
+          "num": 42,
+          "name": "PB6",
+          "description": "GPIO PB6 / I2C1_SCL / TIM4_CH1"
+        },
+        {
+          "num": 43,
+          "name": "PB7",
+          "description": "GPIO PB7 / I2C1_SDA / TIM4_CH2"
+        },
+        {
+          "num": 44,
+          "name": "BOOT0",
+          "description": "Boot mode selection (tie low for normal boot from Flash)"
+        },
+        {
+          "num": 45,
+          "name": "PB8",
+          "description": "GPIO PB8 / TIM4_CH3 / I2C1_SCL"
+        },
+        {
+          "num": 46,
+          "name": "PB9",
+          "description": "GPIO PB9 / TIM4_CH4 / I2C1_SDA"
+        },
+        {
+          "num": 47,
+          "name": "VSS_3",
+          "description": "Digital ground 3"
+        },
+        {
+          "num": 48,
+          "name": "VDD_3",
+          "description": "Digital supply 3 (2.0V to 3.6V)"
+        }
+      ]
+    },
+    {
+      "id": "TPS3808",
+      "category": "ic",
+      "footprint": "TPS3808",
+      "note": "Low-quiescent-current (2.4uA) supervisory circuit with adjustable delay time (1.25ms to 10s). Open-drain RESET output. SOT-23-6 package.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "~{RESET}",
+          "description": "Open-drain reset output (active low)"
+        },
+        {
+          "num": 2,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 3,
+          "name": "~{MR}",
+          "description": "Manual reset input (active low), internally pulled to VDD"
+        },
+        {
+          "num": 4,
+          "name": "CT",
+          "description": "Delay time programming: resistor or capacitor to set delay"
+        },
+        {
+          "num": 5,
+          "name": "SENSE",
+          "description": "Voltage sense input, monitors the supply rail"
+        },
+        {
+          "num": 6,
+          "name": "VDD",
+          "description": "Supply voltage (0.4V to 6.5V)"
+        }
+      ]
+    },
+    {
+      "id": "BQ25895",
+      "category": "ic",
+      "footprint": "BQ25895",
+      "note": "5-A I2C controlled single-cell Li-Ion/Li-Polymer battery charger with MaxCharge and 3.1-A boost. WQFN-24 package. Input 3.9V to 14V.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "VBUS",
+          "description": "Charger input voltage (3.9V to 14V)"
+        },
+        {
+          "num": 2,
+          "name": "D+",
+          "description": "USB data positive (for charger detection)"
+        },
+        {
+          "num": 3,
+          "name": "D-",
+          "description": "USB data negative (for charger detection)"
+        },
+        {
+          "num": 4,
+          "name": "STAT",
+          "description": "Charge status output (open-drain)"
+        },
+        {
+          "num": 5,
+          "name": "SCL",
+          "description": "I2C clock input"
+        },
+        {
+          "num": 6,
+          "name": "SDA",
+          "description": "I2C data (bidirectional)"
+        },
+        {
+          "num": 7,
+          "name": "~{INT}",
+          "description": "Interrupt output (active low, open-drain)"
+        },
+        {
+          "num": 8,
+          "name": "OTG",
+          "description": "Boost mode enable input"
+        },
+        {
+          "num": 9,
+          "name": "~{CE}",
+          "description": "Charge enable (active low)"
+        },
+        {
+          "num": 10,
+          "name": "ILIM",
+          "description": "Input current limit setting / monitoring"
+        },
+        {
+          "num": 11,
+          "name": "TS",
+          "description": "Battery temperature sensing input (NTC)"
+        },
+        {
+          "num": 12,
+          "name": "~{QON}",
+          "description": "BATFET control input (active low)"
+        },
+        {
+          "num": 13,
+          "name": "BAT",
+          "description": "Battery connection"
+        },
+        {
+          "num": 14,
+          "name": "BAT",
+          "description": "Battery connection"
+        },
+        {
+          "num": 15,
+          "name": "SYS",
+          "description": "System power output"
+        },
+        {
+          "num": 16,
+          "name": "SYS",
+          "description": "System power output"
+        },
+        {
+          "num": 17,
+          "name": "PGND",
+          "description": "Power ground"
+        },
+        {
+          "num": 18,
+          "name": "PGND",
+          "description": "Power ground"
+        },
+        {
+          "num": 19,
+          "name": "SW",
+          "description": "Switching node"
+        },
+        {
+          "num": 20,
+          "name": "SW",
+          "description": "Switching node"
+        },
+        {
+          "num": 21,
+          "name": "BTST",
+          "description": "Bootstrap capacitor for high-side gate driver"
+        },
+        {
+          "num": 22,
+          "name": "REGN",
+          "description": "Internal LDO output, bypass with 1uF cap"
+        },
+        {
+          "num": 23,
+          "name": "PMID",
+          "description": "Power path output (VBUS or boost)"
+        },
+        {
+          "num": 24,
+          "name": "DSEL",
+          "description": "D+/D- detection enable"
+        },
+        {
+          "num": 25,
+          "name": "PGND",
+          "description": "Power ground (exposed pad)"
+        }
+      ]
+    },
+    {
+      "id": "TPD4E05U06",
+      "category": "ic",
+      "footprint": "TPD4E05U06",
+      "note": "4-channel ESD protection for USB and other high-speed interfaces. Low capacitance (0.55pF typ). SOT-553 package.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "D1+",
+          "description": "Protected data line 1+"
+        },
+        {
+          "num": 2,
+          "name": "D1-",
+          "description": "Protected data line 1-"
+        },
+        {
+          "num": 3,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 4,
+          "name": "D2+",
+          "description": "Protected data line 2+"
+        },
+        {
+          "num": 5,
+          "name": "D2-",
+          "description": "Protected data line 2-"
+        },
+        {
+          "num": 6,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 7,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 8,
+          "name": "GND",
+          "description": "Ground"
+        },
+        {
+          "num": 9,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 10,
+          "name": "NC",
+          "description": "No connect"
+        }
+      ]
+    },
+    {
+      "id": "BQ76920",
+      "category": "ic",
+      "footprint": "BQ76920",
+      "note": "3- to 5-series cell Li-Ion battery monitor AFE with I2C interface. Integrated cell balancing FETs, charge/discharge FET drivers, 2.5V/3.3V LDO, coulomb counter. TSSOP-20 package.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "DSG",
+          "description": "Discharge FET driver output"
+        },
+        {
+          "num": 2,
+          "name": "CHG",
+          "description": "Charge FET driver output"
+        },
+        {
+          "num": 3,
+          "name": "VSS",
+          "description": "Chip ground (lowest cell negative)"
+        },
+        {
+          "num": 4,
+          "name": "SDA",
+          "description": "I2C data (bidirectional)"
+        },
+        {
+          "num": 5,
+          "name": "SCL",
+          "description": "I2C clock input"
+        },
+        {
+          "num": 6,
+          "name": "TS1",
+          "description": "Thermistor #1 positive terminal"
+        },
+        {
+          "num": 7,
+          "name": "CAP1",
+          "description": "Internal capacitor to VSS"
+        },
+        {
+          "num": 8,
+          "name": "SRP",
+          "description": "Current sense positive (sense resistor)"
+        },
+        {
+          "num": 9,
+          "name": "SRN",
+          "description": "Current sense negative (sense resistor)"
+        },
+        {
+          "num": 10,
+          "name": "BAT",
+          "description": "Battery top-most terminal (pack positive)"
+        },
+        {
+          "num": 11,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 12,
+          "name": "VC5",
+          "description": "Sense voltage for 5th cell positive"
+        },
+        {
+          "num": 13,
+          "name": "VC4",
+          "description": "Sense voltage for 4th cell positive"
+        },
+        {
+          "num": 14,
+          "name": "VC3",
+          "description": "Sense voltage for 3rd cell positive"
+        },
+        {
+          "num": 15,
+          "name": "VC2",
+          "description": "Sense voltage for 2nd cell positive"
+        },
+        {
+          "num": 16,
+          "name": "VC1",
+          "description": "Sense voltage for 1st cell positive"
+        },
+        {
+          "num": 17,
+          "name": "VC0",
+          "description": "Sense voltage for 1st cell negative"
+        },
+        {
+          "num": 18,
+          "name": "REGOUT",
+          "description": "LDO output (2.5V or 3.3V)"
+        },
+        {
+          "num": 19,
+          "name": "REGSRC",
+          "description": "LDO input source"
+        },
+        {
+          "num": 20,
+          "name": "ALERT",
+          "description": "Alert output and override input (I/O)"
+        }
+      ]
+    },
+    {
+      "id": "BQ76200",
+      "category": "ic",
+      "footprint": "BQ76200",
+      "note": "High-voltage battery pack front-end charge/discharge high-side NFET driver. Works with BQ769x0 AFE family. 8V to 75V battery range. TSSOP-16 package.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "VDDCP",
+          "description": "Charge pump output, connect capacitor to BAT"
+        },
+        {
+          "num": 2,
+          "name": "BAT",
+          "description": "Top of battery stack"
+        },
+        {
+          "num": 3,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 4,
+          "name": "CHG_EN",
+          "description": "Charge FET enable input"
+        },
+        {
+          "num": 5,
+          "name": "CP_EN",
+          "description": "Charge pump enable input"
+        },
+        {
+          "num": 6,
+          "name": "DSG_EN",
+          "description": "Discharge FET enable input"
+        },
+        {
+          "num": 7,
+          "name": "PMON_EN",
+          "description": "Pack monitor enable input"
+        },
+        {
+          "num": 8,
+          "name": "VSS",
+          "description": "Ground reference"
+        },
+        {
+          "num": 9,
+          "name": "PCHG_EN",
+          "description": "Precharge FET enable input"
+        },
+        {
+          "num": 10,
+          "name": "PACKDIV",
+          "description": "PACK voltage divider output (for ADC)"
+        },
+        {
+          "num": 11,
+          "name": "PACK",
+          "description": "Analog input from PACK+ terminal"
+        },
+        {
+          "num": 12,
+          "name": "DSG",
+          "description": "Gate drive for discharge FET"
+        },
+        {
+          "num": 13,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 14,
+          "name": "PCHG",
+          "description": "Gate drive for precharge FET"
+        },
+        {
+          "num": 15,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 16,
+          "name": "CHG",
+          "description": "Gate drive for charge FET"
+        }
+      ]
+    },
+    {
+      "id": "LMG3410R050",
+      "category": "MOSFET",
+      "footprint": "LMG3410R050",
+      "note": "600V 50mohm GaN FET with integrated gate driver. QFN-32 package but KiCad symbol exposes 5 functional pins. 12V supply, latched OCP. Do NOT use this if VBUS > 480V.",
+      "spec_vds_max": 600,
+      "spec_rds_on": 0.05,
+      "pins": [
+        {
+          "num": 1,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 2,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 3,
+          "name": "S",
+          "description": "Source"
+        },
+        {
+          "num": 4,
+          "name": "G",
+          "description": "Gate input (CMOS-compatible)"
+        },
+        {
+          "num": 5,
+          "name": "D",
+          "description": "Drain"
+        }
+      ]
+    },
+    {
+      "id": "NXE1S0303MC",
+      "category": "ic",
+      "footprint": "NXE1S0303MC",
+      "note": "1W isolated DC-DC converter, 3.3V input to 3.3V output. SIP package. For low-power isolated supply applications.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "-VIN",
+          "description": "Primary negative input"
+        },
+        {
+          "num": 3,
+          "name": "+VIN",
+          "description": "Primary positive input"
+        },
+        {
+          "num": 7,
+          "name": "-VOUT",
+          "description": "Secondary negative output"
+        },
+        {
+          "num": 8,
+          "name": "+VOUT",
+          "description": "Secondary positive output"
+        },
+        {
+          "num": 14,
+          "name": "NC",
+          "description": "No connect"
+        }
+      ]
+    },
+    {
+      "id": "DRV8825",
+      "category": "ic",
+      "footprint": "DRV8825",
+      "note": "Stepper motor controller/driver with built-in microstepping indexer (up to 1/32 step). 8.2V to 45V motor supply, 2.5A per phase at 24V. HTSSOP-28 package with exposed pad (PPAD).",
+      "pins": [
+        {
+          "num": 1,
+          "name": "GND",
+          "description": "Charge pump ground"
+        },
+        {
+          "num": 2,
+          "name": "~{FLT}",
+          "description": "Fault output (active low, open-drain)"
+        },
+        {
+          "num": 3,
+          "name": "A2",
+          "description": "Bridge A output 2 (motor coil A)"
+        },
+        {
+          "num": 4,
+          "name": "A1",
+          "description": "Bridge A output 1 (motor coil A)"
+        },
+        {
+          "num": 5,
+          "name": "B1",
+          "description": "Bridge B output 1 (motor coil B)"
+        },
+        {
+          "num": 6,
+          "name": "B2",
+          "description": "Bridge B output 2 (motor coil B)"
+        },
+        {
+          "num": 7,
+          "name": "GND",
+          "description": "Device ground"
+        },
+        {
+          "num": 8,
+          "name": "VMOT",
+          "description": "Motor power supply (8.2V to 45V)"
+        },
+        {
+          "num": 9,
+          "name": "~{EN}",
+          "description": "Enable input (active low)"
+        },
+        {
+          "num": 10,
+          "name": "M0",
+          "description": "Microstep mode 0"
+        },
+        {
+          "num": 11,
+          "name": "M1",
+          "description": "Microstep mode 1"
+        },
+        {
+          "num": 12,
+          "name": "M2",
+          "description": "Microstep mode 2"
+        },
+        {
+          "num": 13,
+          "name": "~{RST}",
+          "description": "Reset input (active low)"
+        },
+        {
+          "num": 14,
+          "name": "~{SLP}",
+          "description": "Sleep mode input (active low)"
+        },
+        {
+          "num": 15,
+          "name": "STEP",
+          "description": "Step clock input"
+        },
+        {
+          "num": 16,
+          "name": "DIR",
+          "description": "Direction input"
+        }
+      ]
+    },
+    {
+      "id": "W9825G6KH",
+      "category": "ic",
+      "footprint": "W9825G6KH",
+      "note": "256-Mbit (32MB) SDRAM, 16-bit data bus, 4 banks, 166 MHz clock. TSOP-II 54-pin package. 3.3V supply.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "VDD",
+          "description": "Power supply"
+        },
+        {
+          "num": 2,
+          "name": "DQ0",
+          "description": "Data bit 0"
+        },
+        {
+          "num": 3,
+          "name": "VDDQ",
+          "description": "I/O power supply"
+        },
+        {
+          "num": 4,
+          "name": "DQ1",
+          "description": "Data bit 1"
+        },
+        {
+          "num": 5,
+          "name": "DQ2",
+          "description": "Data bit 2"
+        },
+        {
+          "num": 6,
+          "name": "VSSQ",
+          "description": "I/O ground"
+        },
+        {
+          "num": 7,
+          "name": "DQ3",
+          "description": "Data bit 3"
+        },
+        {
+          "num": 8,
+          "name": "DQ4",
+          "description": "Data bit 4"
+        },
+        {
+          "num": 9,
+          "name": "VDDQ",
+          "description": "I/O power supply"
+        },
+        {
+          "num": 10,
+          "name": "DQ5",
+          "description": "Data bit 5"
+        },
+        {
+          "num": 11,
+          "name": "DQ6",
+          "description": "Data bit 6"
+        },
+        {
+          "num": 12,
+          "name": "VSSQ",
+          "description": "I/O ground"
+        },
+        {
+          "num": 13,
+          "name": "DQ7",
+          "description": "Data bit 7"
+        },
+        {
+          "num": 14,
+          "name": "VDD",
+          "description": "Power supply"
+        },
+        {
+          "num": 15,
+          "name": "LDQM",
+          "description": "Lower byte data mask"
+        },
+        {
+          "num": 16,
+          "name": "~{WE}",
+          "description": "Write enable (active low)"
+        },
+        {
+          "num": 17,
+          "name": "~{CAS}",
+          "description": "Column address strobe (active low)"
+        },
+        {
+          "num": 18,
+          "name": "~{RAS}",
+          "description": "Row address strobe (active low)"
+        },
+        {
+          "num": 19,
+          "name": "~{CS}",
+          "description": "Chip select (active low)"
+        },
+        {
+          "num": 20,
+          "name": "BS0",
+          "description": "Bank select bit 0"
+        },
+        {
+          "num": 21,
+          "name": "BS1",
+          "description": "Bank select bit 1"
+        },
+        {
+          "num": 22,
+          "name": "A10/AP",
+          "description": "Address bit 10 / Auto precharge"
+        },
+        {
+          "num": 23,
+          "name": "A0",
+          "description": "Address bit 0"
+        },
+        {
+          "num": 24,
+          "name": "A1",
+          "description": "Address bit 1"
+        },
+        {
+          "num": 25,
+          "name": "A2",
+          "description": "Address bit 2"
+        },
+        {
+          "num": 26,
+          "name": "A3",
+          "description": "Address bit 3"
+        },
+        {
+          "num": 27,
+          "name": "VDD",
+          "description": "Power supply"
+        },
+        {
+          "num": 28,
+          "name": "VSS",
+          "description": "Ground"
+        },
+        {
+          "num": 29,
+          "name": "A4",
+          "description": "Address bit 4"
+        },
+        {
+          "num": 30,
+          "name": "A5",
+          "description": "Address bit 5"
+        },
+        {
+          "num": 31,
+          "name": "A6",
+          "description": "Address bit 6"
+        },
+        {
+          "num": 32,
+          "name": "A7",
+          "description": "Address bit 7"
+        },
+        {
+          "num": 33,
+          "name": "A8",
+          "description": "Address bit 8"
+        },
+        {
+          "num": 34,
+          "name": "A9",
+          "description": "Address bit 9"
+        },
+        {
+          "num": 35,
+          "name": "A11",
+          "description": "Address bit 11"
+        },
+        {
+          "num": 36,
+          "name": "A12",
+          "description": "Address bit 12"
+        },
+        {
+          "num": 37,
+          "name": "CKE",
+          "description": "Clock enable"
+        },
+        {
+          "num": 38,
+          "name": "CLK",
+          "description": "Clock input"
+        },
+        {
+          "num": 39,
+          "name": "UDQM",
+          "description": "Upper byte data mask"
+        },
+        {
+          "num": 40,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 41,
+          "name": "VSS",
+          "description": "Ground"
+        },
+        {
+          "num": 42,
+          "name": "DQ8",
+          "description": "Data bit 8"
+        },
+        {
+          "num": 43,
+          "name": "VDDQ",
+          "description": "I/O power supply"
+        },
+        {
+          "num": 44,
+          "name": "DQ9",
+          "description": "Data bit 9"
+        },
+        {
+          "num": 45,
+          "name": "DQ10",
+          "description": "Data bit 10"
+        },
+        {
+          "num": 46,
+          "name": "VSSQ",
+          "description": "I/O ground"
+        },
+        {
+          "num": 47,
+          "name": "DQ11",
+          "description": "Data bit 11"
+        },
+        {
+          "num": 48,
+          "name": "DQ12",
+          "description": "Data bit 12"
+        },
+        {
+          "num": 49,
+          "name": "VDDQ",
+          "description": "I/O power supply"
+        },
+        {
+          "num": 50,
+          "name": "DQ13",
+          "description": "Data bit 13"
+        },
+        {
+          "num": 51,
+          "name": "DQ14",
+          "description": "Data bit 14"
+        },
+        {
+          "num": 52,
+          "name": "VSSQ",
+          "description": "I/O ground"
+        },
+        {
+          "num": 53,
+          "name": "DQ15",
+          "description": "Data bit 15"
+        },
+        {
+          "num": 54,
+          "name": "VSS",
+          "description": "Ground"
+        }
+      ]
+    },
+    {
+      "id": "W5500",
+      "category": "ic",
+      "footprint": "W5500",
+      "note": "Hardwired TCP/IP embedded Ethernet controller with integrated MAC and PHY. SPI interface, 10/100 Mbps, 32KB internal buffer. LQFP-48 package. 3.3V with 5V I/O tolerance.",
+      "pins": [
+        {
+          "num": 1,
+          "name": "TXN",
+          "description": "Ethernet TX differential negative"
+        },
+        {
+          "num": 2,
+          "name": "TXP",
+          "description": "Ethernet TX differential positive"
+        },
+        {
+          "num": 3,
+          "name": "AGND",
+          "description": "Analog ground"
+        },
+        {
+          "num": 4,
+          "name": "AVDD",
+          "description": "Analog supply (3.3V)"
+        },
+        {
+          "num": 5,
+          "name": "RXN",
+          "description": "Ethernet RX differential negative"
+        },
+        {
+          "num": 6,
+          "name": "RXP",
+          "description": "Ethernet RX differential positive"
+        },
+        {
+          "num": 7,
+          "name": "DNC",
+          "description": "Do not connect"
+        },
+        {
+          "num": 8,
+          "name": "AVDD",
+          "description": "Analog supply (3.3V)"
+        },
+        {
+          "num": 9,
+          "name": "AGND",
+          "description": "Analog ground"
+        },
+        {
+          "num": 10,
+          "name": "EXRES1",
+          "description": "External resistor (12.4k to GND)"
+        },
+        {
+          "num": 11,
+          "name": "AVDD",
+          "description": "Analog supply (3.3V)"
+        },
+        {
+          "num": 12,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 13,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 14,
+          "name": "AGND",
+          "description": "Analog ground"
+        },
+        {
+          "num": 15,
+          "name": "AVDD",
+          "description": "Analog supply (3.3V)"
+        },
+        {
+          "num": 16,
+          "name": "AGND",
+          "description": "Analog ground"
+        },
+        {
+          "num": 17,
+          "name": "AVDD",
+          "description": "Analog supply (3.3V)"
+        },
+        {
+          "num": 18,
+          "name": "VBG",
+          "description": "Bandgap reference output"
+        },
+        {
+          "num": 19,
+          "name": "AGND",
+          "description": "Analog ground"
+        },
+        {
+          "num": 20,
+          "name": "TOCAP",
+          "description": "Timeout capacitor (4.7uF to GND)"
+        },
+        {
+          "num": 21,
+          "name": "AVDD",
+          "description": "Analog supply (3.3V)"
+        },
+        {
+          "num": 22,
+          "name": "1V2O",
+          "description": "1.2V internal regulator output (bypass with 10uF)"
+        },
+        {
+          "num": 23,
+          "name": "RSVD",
+          "description": "Reserved, leave unconnected"
+        },
+        {
+          "num": 24,
+          "name": "SPDLED",
+          "description": "Speed LED output (active low)"
+        },
+        {
+          "num": 25,
+          "name": "LINKLED",
+          "description": "Link LED output (active low)"
+        },
+        {
+          "num": 26,
+          "name": "DUPLED",
+          "description": "Duplex LED output (active low)"
+        },
+        {
+          "num": 27,
+          "name": "ACTLED",
+          "description": "Activity LED output (active low)"
+        },
+        {
+          "num": 28,
+          "name": "VDD",
+          "description": "Digital supply (3.3V)"
+        },
+        {
+          "num": 29,
+          "name": "GND",
+          "description": "Digital ground"
+        },
+        {
+          "num": 30,
+          "name": "XI/CLKIN",
+          "description": "Crystal oscillator input / external clock input (25 MHz)"
+        },
+        {
+          "num": 31,
+          "name": "XO",
+          "description": "Crystal oscillator output"
+        },
+        {
+          "num": 32,
+          "name": "SCSn",
+          "description": "SPI chip select (active low)"
+        },
+        {
+          "num": 33,
+          "name": "SCLK",
+          "description": "SPI clock input"
+        },
+        {
+          "num": 34,
+          "name": "MISO",
+          "description": "SPI data output"
+        },
+        {
+          "num": 35,
+          "name": "MOSI",
+          "description": "SPI data input"
+        },
+        {
+          "num": 36,
+          "name": "INTn",
+          "description": "Interrupt output (active low)"
+        },
+        {
+          "num": 37,
+          "name": "RSTn",
+          "description": "Reset input (active low)"
+        },
+        {
+          "num": 38,
+          "name": "RSVD",
+          "description": "Reserved, leave unconnected"
+        },
+        {
+          "num": 39,
+          "name": "RSVD",
+          "description": "Reserved, leave unconnected"
+        },
+        {
+          "num": 40,
+          "name": "RSVD",
+          "description": "Reserved, leave unconnected"
+        },
+        {
+          "num": 41,
+          "name": "RSVD",
+          "description": "Reserved, leave unconnected"
+        },
+        {
+          "num": 42,
+          "name": "RSVD",
+          "description": "Reserved, leave unconnected"
+        },
+        {
+          "num": 43,
+          "name": "PMODE2",
+          "description": "PHY mode config bit 2"
+        },
+        {
+          "num": 44,
+          "name": "PMODE1",
+          "description": "PHY mode config bit 1"
+        },
+        {
+          "num": 45,
+          "name": "PMODE0",
+          "description": "PHY mode config bit 0"
+        },
+        {
+          "num": 46,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 47,
+          "name": "NC",
+          "description": "No connect"
+        },
+        {
+          "num": 48,
+          "name": "AGND",
+          "description": "Analog ground"
+        }
+      ]
+    }
+  ]
+}

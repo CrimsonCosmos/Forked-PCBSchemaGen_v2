@@ -1,0 +1,139 @@
+# Task Configuration - centralizes task-specific verification parameters
+# Replaces hardcoded task_id sets in phase2_checks.py, rule_checker.py, match_skeleton.py
+#
+# Schema per task:
+#   level: easy | medium | hard
+#   type: circuit category
+#   match_mode: full_subgraph | key_subgraph | relaxed
+#   graph_tolerance: int (for relaxed match)
+#   passive_tolerance: float (for passive component count check)
+#   checks: list of enabled special check groups
+#   skip_rules: list of rule names to skip
+#   skip_component_count: list of part_ids to skip in count tolerance
+
+defaults:
+  match_mode: relaxed
+  graph_tolerance: 0
+  passive_tolerance: 0.0
+  checks: []
+  skip_rules: []
+  skip_component_count: []
+
+tasks:
+  1:
+    level: easy
+    type: voltage_divider
+    match_mode: key_subgraph
+
+  2:
+    level: easy
+    type: ldo
+    match_mode: key_subgraph
+
+  3:
+    level: easy
+    type: diff_sensing
+    match_mode: full_subgraph
+    graph_tolerance: 5
+    checks: [gain_calculation]
+
+  4:
+    level: easy
+    type: isolated_sensing
+    match_mode: key_subgraph
+
+  5:
+    level: easy
+    type: isolated_sensing
+    match_mode: key_subgraph
+
+  6:
+    level: easy
+    type: buck_regulator
+    match_mode: relaxed
+    checks: [tps54302_diode, buck_enable]
+    skip_rules: [buck_en, buck_vin_gnd, buck_vin_fb]
+
+  7:
+    level: medium
+    type: isolated_dcdc
+    match_mode: key_subgraph
+
+  8:
+    level: medium
+    type: half_bridge
+    match_mode: key_subgraph
+    checks: [gate_float_allowed, strict_halfbridge]
+
+  9:
+    level: medium
+    type: half_bridge
+    match_mode: key_subgraph
+    checks: [gate_float_allowed, strict_halfbridge, ks_source_rlc]
+
+  10:
+    level: medium
+    type: half_bridge
+    match_mode: key_subgraph
+    checks: [gate_float_allowed, strict_halfbridge, ks_source_rlc]
+
+  11:
+    level: medium
+    type: half_bridge
+    match_mode: key_subgraph
+    checks: [gate_float_allowed, strict_halfbridge, ks_source_rlc]
+
+  12:
+    level: medium
+    type: half_bridge
+    match_mode: key_subgraph
+    checks: [gate_float_allowed, strict_halfbridge]
+
+  13:
+    level: medium
+    type: gate_driver_lowside
+    match_mode: relaxed
+    checks: [ucc27511_output]
+    skip_rules: [ucc27511_out_pair]
+
+  14:
+    level: medium
+    type: gate_driver_bootstrap
+    match_mode: relaxed
+
+  15:
+    level: medium
+    type: gate_driver_isolated
+    match_mode: relaxed
+    checks: [ucc5390e_vin_minus]
+    skip_rules: [normal_rules]
+    skip_component_count: [D]
+
+  16:
+    level: medium
+    type: gate_driver_isolated
+    match_mode: relaxed
+    passive_tolerance: 0.6
+
+  # Hard tasks (P17-P23) validated by complex_task_validator
+  17:
+    level: hard
+    type: sync_buck
+  18:
+    level: hard
+    type: sync_boost
+  19:
+    level: hard
+    type: 4sw_buckboost
+  20:
+    level: hard
+    type: dab
+  21:
+    level: hard
+    type: llc
+  22:
+    level: hard
+    type: 3phase_motor
+  23:
+    level: hard
+    type: grid_inverter
